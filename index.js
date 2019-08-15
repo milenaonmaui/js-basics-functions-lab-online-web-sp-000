@@ -19,7 +19,9 @@ function calculatesFarePrice(start, destination) {
     return 0;
   } else if (feet < 2000) {
     return (feet-400)*2/100
+  } else if (feet < 2500){
+    return 25;
   } else {
-    
+    return ''
   }
 }
