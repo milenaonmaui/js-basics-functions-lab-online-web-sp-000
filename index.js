@@ -17,7 +17,9 @@ function calculatesFarePrice(start, destination) {
   feet = Math.abs(start-destination)
   if (feet <= 400) {
     return 0;
-  } else if {
+  } else if (feet < 2000) {
+    return feet*2
+  }
   }
 }
 }
