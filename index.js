@@ -14,12 +14,12 @@ function distanceTravelledInFeet(arg1, arg2) {
 }
 
 function calculatesFarePrice(start, destination) {
-  feet = Math.abs(start-destination)
+  feet = distanceTravelledInFeet(start, destination)
   if (feet <= 400) {
     return 0;
   } else if (feet < 2000) {
-    return feet*2
+    return (feet-400)*2/100
+  } else {
+    
   }
-  }
-}
 }
