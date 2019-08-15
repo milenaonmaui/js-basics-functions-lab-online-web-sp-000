@@ -12,3 +12,12 @@ function distanceFromHqInFeet(location) {
 function distanceTravelledInFeet(arg1, arg2) {
   return Math.abs(arg1-arg2)*264
 }
+
+function calculatesFarePrice(start, destination) {
+  feet = Math.abs(start-destination)
+  if (feet <= 400) {
+    return 0;
+  } else if {
+  }
+}
+}
